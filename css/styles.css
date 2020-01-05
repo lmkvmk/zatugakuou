@@ -1,0 +1,52 @@
+body {
+  background: #fff;
+}
+
+h1 {
+  background: rgb(192, 240, 240);
+  width: 200px;
+  font-weight: bold;
+  color: rgb(165, 156, 156);
+  font-family: "fantasy, sans-serif"; 
+  border-left: solid 10px rgb(99, 228, 233)
+}
+
+header p {
+  background: rgb(238, 145, 117);
+  font-weight: bold;
+  border-left: solid 10px rgb(197, 29, 7);
+  border-right: solid 10px rgb(197, 29, 7);
+  width: 500px;
+  text-align: center;
+  font-size: 25px;
+}
+
+main p {
+  font-size: 30px;
+  color: rgb(209, 24, 24)
+}
+
+.btn  {
+  background: rgb(219, 177, 98);
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin: 40px auto 48px;
+  line-height: 50px;
+  font-family: monospace, 'sans-serif';
+  border-radius: 20px;
+  box-shadow: 0 10px 0 rgb(211, 148, 31);
+  opacity: 1;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  margin-top: 45px;
+  box-shadow: 0 7px 0 rgb(211, 148, 31);
+}
